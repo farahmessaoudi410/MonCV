@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Farah Messaoudi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .cv-container {
+            display: flex;
+            max-width: 1000px;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .left-section {
+            flex: 2;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .left-section h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .left-section h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .left-section h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            border-bottom: 2px solid #222;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .left-section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .left-section ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+        .left-section ul li {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .right-section {
+            flex: 1;
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+        }
+        .right-section img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .right-section h2 {
+            font-size: 18px;
+            color: #222;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .right-section ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        .right-section ul li {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .contact-info {
+            text-align: left;
+        }
+        .contact-info p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        .open-form-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0077b5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .open-form-button:hover {
+            background-color: #005a91;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Section gauche -->
+        <div class="left-section">
+            <h1>Farah Messaoudi</h1>
+            <h3>Étudiante en Business Computing</h3>
+            <h2>À propos de moi</h2>
+            <p>
+                Étudiante en deuxième année de licence en <strong>Business Computing</strong> à l’Université
+                <strong>Esprit School of Business</strong>, je suis passionnée par le développement informatique et la création 
+                de solutions innovantes.
+            </p>
+            <h2>Expériences Professionnelles</h2>
+            <p><strong>Été 2023 - formation de développement web, Tunis</strong></p>
+            <h2>Qualités</h2>
+            <ul>
+                <li>Grande curiosité intellectuelle</li>
+                <li>Excellentes compétences en communication</li>
+                <li>Capacité à travailler de manière autonome</li>
+            </ul>
+            <h2>Compétences</h2>
+            <ul>
+                <li>Connaissances solides en informatique</li>
+                <li>Compétences en analyse de données</li>
+            </ul>
+        </div>
+        <!-- Section droite -->
+        <div class="right-section">
+            <img src="farah.jpg" alt="Photo de Farah">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>📞 +216 26 911 007</p>
+                <p>📧 <a href="mailto:fgharbi856@gmail.com">fgharbi856@gmail.com</a></p>
+                <p>📍 Ariana, Tunis</p>
+                <p>🔗 <a href="https://www.linkedin.com/" target="_blank">linkedin.com/votre-profil</a></p>
+            </div>
+            <h2>Langues</h2>
+            <ul>
+                <li>Arabe : langue maternelle</li>
+                <li>Français </li>
+                <li>Anglais </li>
+				<li>Espagnol </li>
+                <li>Turc </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bouton pour ouvrir le formulaire -->
+    <a href="formulaire.html" target="_blank" class="open-form-button">Ouvrir le formulaire</a>
+	
+</body>
+</html>
